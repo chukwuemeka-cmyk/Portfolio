@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+body{
+    background-color: black;
+}
+.Content{
+margin-top: 200px;
+margin-left: 10%;
+}
+nav{
+    margin-top: 10px;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+}
+nav ul li{
+    list-style-type: none;
+    
+}
+nav ul li ul{
+    position: absolute;
+    background-color: #f5f5f5;
+    display: none;
+     width: 200px;
+}
+
+nav ul li a{
+    font-size: 15px;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: light;
+    padding: 15px;
+    
+}
+/* nav ul li a:hover{
+    background-color: red;
+} */
+nav ul li .J a{
+    color: black;
+    /* width: 100%;
+    text-align: center; */
+}
+nav ul li .J li{
+    padding:10px;
+}
+nav ul li:hover .J{
+    box-shadow: 1px 1px 12px coral;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: block;
+}
+.CLASS{
+    position: relative;
+}
+.CLASS:after{
+   content:"";
+   position: absolute;
+   bottom: 10px;
+left: 0;
+   height: 3px;
+   width: 0;
+   box-shadow: 1px 1px 12px red;
+   background-color:coral;
+}
+.CLASS:hover:after{
+    width: 100%;
+    transition: 300ms;
+    border-radius: 5px;
+}
+.JBOY{
+    position: relative;  
+    text-align: center;
+}
+.JBOY:after{
+    content:"";
+   position: absolute;
+   bottom:10px;
+left: 0;
+   height: 2px;
+   width: 0;
+   box-shadow: 1px 1px 12px red;
+   background-color:coral;
+}
+.JBOY:hover:after{
+    width: 100%;
+    transition: 300ms ease;
+    border-radius: 5px;
+}
+
+nav ul li .AV {
+    background-color:white;
+   display: none;
+}
+nav ul li:Hover .AV{
+    display: flex;
+    width:120PX;
+    margin-left: 20px;
+    padding-top: 15px;
+    height: inherit;
+   border-radius: 5px;
+   box-shadow: 1px 1px 12px coral;
+}
+
+.hEY{
+   position: absolute;
+   left:0px;
+   top: 0px;
+   width: 20px;
+  
+}
+.HEY{
+   position: absolute;
+   top: 0;
+   left: 2px;
+   width: 20px;
+}
+.HEy{
+    position: absolute;
+    top: 0;
+    left:10px;
+    width: 20px;
+}
+
+nav ul li .A{
+    color: black;
+}
+nav ul li:Hover .A{
+    display: block;
+    width: inherit;
+    padding: 15px;
+    height: inherit;
+   border-radius: 5px;
+   box-shadow: 1px 1px 12px coral;
+}
+.JAKE{
+    position: relative;
+}
+.JAKE:after{
+    content:"";
+    position: absolute;
+    left: 0;
+    /* top: -5px; */
+    bottom:5px;
+    height: 2px;
+    background-color: coral;
+    box-shadow: 1px 1px 12px red;
+    width:0;
+}
+.JAKE:Hover:after{
+    width: 100%;
+    transition: 300ms;
+}
+
+
+
+
+
+
+
+.Go{
+font-size:15px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+width: 100%;
+/* filter: drop-shadow(1px 1px 12px green); */
+font-weight:500;
+text-transform: uppercase;
+/* background: linear-gradient(125deg,rgb(179, 21, 21),rgb(23, 23, 167),rgb(4, 255, 4));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text; */
+color:coral;
+}
+.Content h1{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 80px;
+color: white;
+width: 100%;
+}
+/* span{
+color: rgb(181, 36, 36);
+
+} */
+.lll{
+ position: absolute;
+top: 62%;
+left: 10%; 
+text-decoration: none;
+font-family: system-ui;
+color: rgb(255, 6, 6);
+border-radius: 300px;
+background-color:coral rgb(255, 0, 47);
+padding: 10px;
+width: 200px;
+border: 1px solid coral;
+font-size: 16px;
+font-weight: 100;
+color: white;
+}
+.lll:hover{
+background-color:coral;
+border-color: coral;
+color:black;
+box-shadow: 1px 1px 12px coral;
+font-weight: 200;
+margin-left: 100px;
+transition: 600ms ease;
+
+}
+.Content p{
+width:100%;
+color: white;
+font-family: system-ui;
+}
+.Span{
+/* background:linear-gradient(125deg,red,blue,red);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text; */
+color: coral;
+filter:drop-shadow(1px 1px 12px coral)
+}
+.button{
+    color: #f5f5f5;
+   position: absolute;
+   top: 5px;
+   text-decoration: none;
+   background-color: coral;
+   padding: 10px;
+   border-radius: 30px;
+   right: 20%;
+   animation-name: standout;
+   animation-duration: 4s;
+   animation-iteration-count: 3;
+}
+/* @keyframes standout{
+    10%{
+        
+    }
+} */
+.button:focus{
+    transition: 3s ease;
+ margin-top: 150px;
+ margin-left: 10px;
+ box-shadow:1px 1px 12px coral;
+}
+.MARQUEE{
+    filter: drop-shadow(1px 1px 12px #f5f5f5);
+    margin-top: 150px;
+}
+MARQUEE{
+    font-size: 200px;
+color: white;
+}
+
+.AKATU{
+    position: relative;
+    color: black;
+}
+.AKATU:after{
+    content:"";
+    position: absolute;
+    bottom:3px;
+    left: 0;
+    background-color: coral;
+    box-shadow: 1px 1px 12px red;
+    height: 2px;
+    width: 0;
+}
+.AKATU:hover:after{
+    width: 100%;
+    transition: 300ms;
+}
+.AGE {
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    margin-right: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.Language{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.Language:after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: coral;
+    height: 3px;
+    width: 100%;
+}
+.Lang{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-left: 10PX;
+}
+.Lang:after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    background-color: coral;
+    height: 3.5px;
+    width: 100%;
+}
+.Language:hover{
+   color: Coral;
+   transition: 300ms;
+   
+}
+.Lang:hover{
+  color: coral;
+transition: 300ms ;
+}
+.EVIAN{
+    padding: 15px;
+}
+nav ul li .EVY{
+    display: none;
+    width: inherit;
+    margin-top: 15px;
+    /* padding: 10px; */
+    font-weight: bolder;
+    height: inherit;
+   border-radius: 5px;
+}
+nav ul li:hover .EVY{
+    display: block;
+}
+.KANTEEN{
+    font-weight: b  ;
+ 
+}
+.EV{
+    display: none;
+    width: inherit;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.EVI:hover{
+    display: block;
+    width: inherit;
+    margin-top: 15px;
+    background-color: red;
+    padding: 15px;
+    height: inherit;
+   border-radius: 5px;
+}
+.Style{
+    color: black;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+nav ul li .AI{
+    display: none;
+}
+nav ul li:hover .AI{
+    display: block;
+    width: inherit;
+    margin-top: 15px;
+    padding: 15px;
+    height: inherit;
+   border-radius: 5px;
+   /* box-shadow: 1px 1px 12px coral; */
+}
+.FAJIII{
+    width:500px;
+    position: absolute;
+    top: 30%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    right: 10px;
+    height: 200PX;
+    background-color: coral;
+}
+.LONELY{
+   position: absolute;
+   right: 10px;
+   width: 400px;
+   top: 0px;
+   rotate: -7deg;
+}
+.Esteemed{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+  color: #f5f5f5;
+  text-align: center;
+}
+.Obi{
+    padding: 10px;
+    height: 100%;
+}
+.Logo:hover{
+    rotate: 10deg; 
+     filter: grayscale(0);
+}
+.Logo{
+    height: 400px;
+    width:400px ;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    filter: grayscale(1.1);
+    margin-top: 10px;
+}
+.customerreviews{
+color: white;
+filter: drop-shadow(1px 2px 12px #f5f5f5);
+}
+.Drop-Down .Lick .mE{
+    display: none;
+}
+.Drop-Down .Lick:hover.mE{
+    display: block;
+}
+.Carousel{
+    display: flex;
+    height: 310px;
+    width: 500px;
+    overflow-x:scroll;
+    color: #f5f5f5;
+    text-align: center;
+}
+.Carousel Div{
+    min-width: 500px;
+    min-height: 500px;
+}
+.Video{
+    opacity: 25%;
+}
+.OG{
+    background-color:coral;
+    margin-top: 50px;
+    height: 10px;
+    width: 100%;
+}
+.OB h1{
+ font-size: 100px;
+ color: whitesmoke;
+ margin-left: 300px;
+}
+.OB h1:hover{
+   margin-left: 400px;
+   transition: 500ms ease;
+}
+.OB h2{
+ background-color: coral;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ filter: drop-shadow(12px coral);
+    margin-left: 10px;
+   font-size: 150px;
+}
+
+.OB h2:hover{
+ background-color:rgb(38, 34, 34);
+ filter: drop-shadow(1px 1px 10px coral);
+}
+
+.OB{
+    display: flex;
+}
+.SEC{
+    background-color: coral;
+    color: black;
+    height: 300px;
+    text-align: center;
+    display: flex;
+}
+.GHIJ{
+    background-color: coral;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.AINT{
+    display: flex;
+    margin-top: 50px;
+    color: black;
+    background-color: coral;
+}
+.Developer{
+    font-size: 100px;
+}
+.h3{
+    padding: 10px;
+}
+.h3 p{
+    font-size: 25px;
+}
+h3{
+    font-size: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Who-is{
+    display: flex;
+    color: white;
+    /* writing-mode: vertical-lr; */
+}
+ .About h1 {
+ margin-top: 100px;
+ margin-left: 20px;
+}
+.About P{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.Sorry{
+    color: WHITE;
+    width: 300px;
+    background-color: RED;
+    display: none;
+}
+.sorry{
+    color: #f5f5f5;
+    width: 300px;
+    background-color: RED;
+    display: none;
+}
+
+@media screen and (max-width:600px){
+   nav{
+   display: none;
+   }
+   .Content{
+   display: none;
+   }
+   .FAJIII{
+   display: none;
+
+   }
+   .OB{
+   display: none;
+   }
+   .SEC{
+   display: none;
+   }
+   .Who-is{
+   position: absolute;
+   top: 250px;
+   }
+   .OG{
+   display: none;
+   }
+   .MARQUEE{
+    visibility:collapse;
+   }
+   body{
+    width: 100px;
+   }
+   .Logo{
+    width:100px;
+    height: 100px;
+   }
+   .About{
+    position: absolute;
+    left: 0;
+    width: 300px;
+   }
+   .Sorry{
+    display: block;
+    position: absolute;
+    top: 0;
+   }
+   .sorry{
+    display: block;
+    position: absolute;
+    bottom: 0;
+   }
+}
